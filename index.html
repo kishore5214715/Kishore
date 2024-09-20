@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/spin.js@2.5.0/spin.min.js"></script>
+
+    <title>Kishore - Portfolio</title>
+</head>
+<body>
+    <!-- Spinner -->
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+
+    <header>
+        <a href="#home"><img src="logo.jpg"></a>
+        <!-- <img <a href="#home"> src="logo.jpg"</a> /> -->
+        <nav>
+            <ul>
+                <li class="highlite"><a href="#home">Home</a></li>
+                <li class="highlite"><a href="#about">About me</a></li>
+                <li class="highlite"><a href="#skills">Skills</a></li>
+                <li class="highlite"><a href="#profile">Profile</a></li>
+                <li class="highlite"><a href="#project">Project</a></li>
+                <li class="highlite"><a href="#contact">Contact Me</a></li>
+                <li class="highlite"><a href="logo/Kishore.pdf" download="Resume.pdf">Download Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="content" id="home">
+        <div class="box">
+            <div class="box-image">
+                <img src="photo1.jpeg"  alt="Portfolio image">
+            </div>
+            <div class="box-content">
+                <div class="home-section">
+                    <h1>Kishore A</h1>
+                    <h2>I'm a <span id="changing-text"></span></h2>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id ="about" class="content" style="margin-top: 0;">
+        <div class="box">
+        <div class="box-content">
+            <h2>About Me</h2>
+            <p>
+                I'm Kishore, an aspiring software engineer with a passion for solving complex problems 
+                and building innovative solutions. Skilled in both Java and Python, I have experience 
+                developing applications using frameworks like Spring Boot and Django. My educational 
+                background in Electronics and Communication Engineering has provided me with strong 
+                analytical skills and a solid foundation in software development.
+            </p>
+            <p>
+                I am always eager to learn and explore new technologies. I'm seeking opportunities 
+                that allow me to grow while contributing to impactful projects. In my free time, I enjoy 
+                coding challenges, open-source contributions, and staying updated with the latest 
+                technology trends.
+            </p>
+        </div>
+        <div class="box-image">
+            <img src="professonal photo.jpg">
+        </div>
+        </div>
+    </div>
+
+    <div class="skills-section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill">
+                        <p><img src="logo/Java-logo.png" alt="Java" class="logo">
+                        <a href="https://www.java.com/en/" target="_blank">
+                                    Java
+                            </a><span>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 90%</span>
+                        </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p><img src="logo/python-logo.png" alt="python" class="logo">
+                                <a href="https://www.python.org/" target="_blank">
+                                    Python
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 85%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p><img src="logo/js-logo.jpg" alt="js" class="logo">
+                                <a href="https://www.javascript.com/" target="_blank">
+                                    JavaScript
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 70%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="skill-card">
+                        <h3>Frameworks</h3>
+                        <div class="skill">
+                            <p><img src="logo/spring-boot-logo.png" alt="spring" class="logo">
+                                <a href="https://spring.io/" target="_blank">
+                                    Spring Boot
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 80%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p><img src="logo/django-logo.png" alt="Django" class="logo">
+                                <a href="https://www.djangoproject.com/" target="_blank">
+                                    Django
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 75%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                    <div class="skill-card">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill">
+                            <p><img src="logo/Git-Icon.png" alt="git" class="logo">
+                                <a href="https://git-scm.com/" target="_blank">
+                                    Git
+                                </a><span>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 80%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p><img src="logo/llinux.png" alt="Linux" class="logo">
+                                <a href="https://kernel.org/" target="_blank">
+                                    Linux
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 75%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p><img src="logo/sql.png" alt="Linux" class="logo">
+                                <a href="https://www.mysql.com/" target="_blank">
+                                    MySQL
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 70%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p><img src="logo/pg.png" alt="Linux" class="logo">
+                                <a href="https://www.postgresql.org/" target="_blank">
+                                    PostgreSql
+                                </a><span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 70%</span>
+                            </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    <div class="profile-section" id="profile">
+        <h2>Profile</h2>
+        <div class="profile-content">
+            <div class="profile-info">
+                <div class="profile-info-item">
+                    <h3>GeeksForGeeks</h3>
+                    <a href="https://www.geeksforgeeks.org/user/kishore001/" target="_blank">
+                        <img src="logo/gfg.png" class="profile-logo">
+                    </a>
+                </div>
+                <div class="profile-info-item">
+                    <h3>Leetcode</h3>
+                    <a href="https://leetcode.com/u/kishore_001/" target="_blank">
+                        <img src="logo/leetcode.png" alt="GitHub" class="profile-logo">
+                    </a>
+                </div>
+                <div class="profile-info-item">
+                    <h3>CodeForce</h3>
+                    <a href="https://codeforces.com/profile/kishorea001" target="_blank">
+                        <img src="logo/cf.png" alt="Portfolio" class="profile-logo">
+                    </a>
+                </div>
+                <div class="profile-info-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/kishore5214715" target="_blank">
+                        <img src="logo/github.png" alt="Twitter" class="profile-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="projects-section" id-"project">
+        <div class="projects-container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <img src="images/project1-thumbnail.jpg" alt="Project 1 Thumbnail" class="project-image">
+                <div class="project-content">
+                    <h3> 1</h3>
+                    <p>A web-based application developed using Spring Boot and Django, designed to help users manage their tasks efficiently. It features user authentication, task categorization, and deadlines to improve productivity and organization.</p>
+                    <a href="https://link-to-project1.com" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://private-user-images.githubusercontent.com/139248946/342382713-c1087f60-5d15-4e81-8e1d-febca15310ab.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY2ODM4MTMsIm5iZiI6MTcyNjY4MzUxMywicGF0aCI6Ii8xMzkyNDg5NDYvMzQyMzgyNzEzLWMxMDg3ZjYwLTVkMTUtNGU4MS04ZTFkLWZlYmNhMTUzMTBhYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkxOFQxODE4MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNzc2NjU5NzgxMjczMDRlYjk4ZmM1NmI0MjQ1NzYxNTA0NzFhNWE1NDRiNTMzNTgwNmI5N2QwZTg4NWM3MTBjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iI1T4zeyUBrPxzPjZ-OBVCGIqLhFY1jmBW0xgJp8FxQ" alt="Project 2 Thumbnail" class="project-image">
+                <div class="project-content">
+                    <h3>ToDo App</h3>
+                    <p>A web-based application developed using Spring Boot and Django, designed to help users manage their tasks efficiently. It features user authentication, task categorization, and deadlines to improve productivity and organization.</p>
+                    <a href="https://github.com/kishore5214715/SpringBoot_Todo_APP" class="project-link">View Project</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+            <ul class="contact-list">
+                <li>
+                    <a href="https://www.linkedin.com/in/kishorea001" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEUAd7X///8AcLEEebb7/f4Debb9/v79/v8DeLY8l8Y7lsYAbbCcyuKlz+WQxN+Lwd0KfbiDvdvl8fcAc7O+3OwgiL6x1ehFnMlytNZqsNQZhLzF4O7w9/tSo81gqtGp0ebc7PUsjsJ8udngaOvIAAADg0lEQVRoge2abZeqIBCAGV7EjXItKjc1y/7/j7xD7m5AWHdD+uScs3s8kDzOIMwMDoGrSJ4lEC6H0ckVkUEiyeQPBC+ar+pjcqm+GsQMEAntUSuaQJQ+toZC8F+7U4KJBMKE6ltUwkAqJUgiEapCAJGwpSwVgxBGtyAJh4NKCVEH4AStRZNZC+1F0V5orgXN00FyukBzZekh2XsgbzFXCMIGSQlhTCsjegrMCEQQVXfF8rOrFYm3YxjCdFnw6zbdFkJHr6AgROjdGYAbATjXOlaXEISRcgN88GEZh3NJIuclBBF0BfzXr3EoYve1ACTXPViuOAO+izRYAMLUxVLEqBK7RQcggp48yHJ6SG5cjAWRsI/0A0FN9g6Ew2p6TZhae+a6pDDXwn67UKt++rcL3+Gts072sW4gDOn5L4VjRBa7rwT3LkarDMNvmeEf8EV0tDSyC9O++dZku4uPyEb8CdO6KrbNtvjQOt5rjXnGnGGkrKmibALfP+7jBQ6fs0lCvnHIn4Tlj2KBsTkJX4cGYgLH1yiD8n+A/LcgACevrHe7ujRXQYXCEFHaIsLNZjgMnMrjstm0nLebZnXodSi6Cbvfz3Zzk3Y97I/ozOxmE2Dkql5vnCS0OQbe+WAgoZbOjcUPpLBbeU0I7dprZi4xlZYyM8ENNP3d6h2DcPkj/Ab5vDVjkllrgg/DpfNA+HN59D3DKMTahW3ILbxoa3Ru/D75x59Uni6vQ3hZOL7N8j9+ePMqRMLmACNnGHce6FUItrcgA4ThCdwU9HUIjDLuVImAjB/4+EFnjCZXba6xv/SU8oLOOEhmvQgu5GRPShQER25Pl667nFrXeBmc7ZUSA8FxLyU1mSWtTw7Fm5S4ia/Ud5KsnVtM34dlrwiIxNkV31ZhhG1sXTh01sy/DkG7W55SqC9npcLXJBBvHEzPLFU4rCeBgBeHs7MDKaaA4A5ZWggvdXKzs5chGTSOn2XKTZlX02jiJnnGOU8O8ZO8u146CWTpQdYzZIbMkBkyQ2bIDJkhA+QmDsRqDkCs3tXTqH4FtiyDxx6BkMiW/ZO4K6eH/eom+27oy2nnNB+8DPfo9j5JgswBk/PVnj1sfnzTKMScPVpf7fMnzU97JzqDfCxvhMxfsf8Ake8pX3hLIUbqkhJtSkpSF8ccTXGMKSXqk5f5vKVg6Xpkkbz06j1FZJC6HO4fbRVnSvd35FUAAAAASUVORK5CYII=" alt="LinkedIn" class="contact-logo">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_.kishore0_/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="contact-logo">
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/KishoreA589406" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAACvr6/6+voEBAT4+Pjo6OiioqLr6+vs7Oympqbl5eW5ubnv7+/Y2NiFhYVVVVUNDQ1KSkrExMRERES7u7stLS0aGhp4eHgnJycVFRWMjIyAgIA7OztISEjb29ttbW1kZGTNzc1cXFxnZ2ebm5vJyck1NTVycnIxMTGTk5OP3JzeAAAMDElEQVR4nO2da1viOhCALU0BuQmoICoKK6h7/v8PPJalM2nSpJnJlHL29P3mg9BOm8lck9zcdHR0dHR0dHR0dHR0dHR0dHT8z0iz6W1/PB73h9MsbftmRJnOJse7w8N2tU4K1qvt2/7uOHmftn1zsYwnL/NV4mMzf5mM275NHuls8OGVTedjMPuPjdv+5BAs3Rl1mPTbvu1Q+qMl3DZNyuVg2PbN15P15tS3V2Ley9oWwcvsKUq8PzzN2hbDyWQrIF8+sLeTtkWpIhttBOQr2IyubbBmx2dB+XKej1cl40havpzFqG2xgMd1/e2yWD+2LdqJ2bL+Vtks259Xs7sG5ct5bdmdu29qgCLr+xbly3aNy5fbx11rs+rnonkB/0j52Y6ATWugzl0L8vWX5NCBzc91lhePOn5dSDjk12UFHFxcwCQ5XlC+9OlyI/RMfrnviwmYxQW5fOYXsv5TiTCQx/Yi2cfx+uJDFFk3PqWmN+9tCXemcVd8lrT4Bk9XbljEtt9gznuTAo7blu5Eg1WAafOxUgjrxmbUdNumDmpsG7KLaVuG3qYh0y+Rz5biqQkB23C23QzkBdTDpadJrwaRBP8PO/hBU0XEg6m+/usBk5mMXdnB743Mj5SwzUjLSdF5/TcmAgLiZe7tD5eyEpo5mX/qv/IaLSAahcqMwoukgJ/Wz9d7h2msKm5AF6p8xR/DLJiBy+y0oQpTxQgHwS9gzkIuj1qV+P2o/9pjjIRrmEnGzrTsTkrACjX/uXW0SFlqUHwQ4yOAgFNn5VUlQgn/zOFvg0V6T9RCJ4Ei9Rf7LYKee9RZJRuZceqaFBegKD3zo+IFsK0ivpw37/+9Sgg4c/48qqI5HL+KD5iqiJXR3JXx/YJExO8pgIIqWkPp6easjK8cCXtw8drWKgG7/+j8cVVSRQNdFalg/f67/p/jC+HesB413XLSClXsV33PC/oqIdWtTayAlsdbZg//aM5H2+ID9yCwUUqfPI5B34ns2Mjq2khQFX8bn8CdEhxUVQ4nVIgOP8dZjPrHCJNZ2TIoVMX0IVxEbVD0ksB5OKomVfsKdVV8NG+IahVVTbzkIOol1mjhiR38t88qhlETLzmI0cSgZjy8gG0VzwSq4m94G6TcesR0GhingypalgFMd5AqYmHJHU5Uwm/WDIxhVzC2nFYxRBUXGC8RGzkfuALOQp3KA3zFVEWKVQyIl1xwvdPA8E75VBFq77X+Cd6laVnrYSaIM8IloOJlDUfQkZohj0kXTvGAZzCsqM/DF6iiNRyL6cPjoCp9stiTxUv0aIQC6Vnu4GumZXgohPdFKTjMec2AAQlcmz4teIWnWHbSdFfardeY8+F26nAy4CH+TOU1huZNwgh0WUXML79wpMvh+DXU5uYVfNMajlqsWPWCsPGQ+lQRRqxPj1xxyjYtAziolU7S7kb7mJ1gpS8Lo8ykZ3A+fDBu1aeKmM+KKubQPTfy8rpEU8Vb8xPIplhWEYdXeLxUxeGGSMrpcIbRaN8tqKIqv12wJeE+YjWKWtp3Z0l9YI7FVEXNKoIcSiVbcEbGsV0eVN+UU7VXem7PqYq67BuIl/rRrTrUyv4HY8jk34ApzZqLq6xiRDhhEVAMK8G9DoZqlioWwp+nISUrYJLQBOQ3GqD5Lquish3UkPoSAZrjFmGa0DCZXpGhihgvcVTCd+EQ2P5hoo895z3kqoiTUkB1IgRa50JMC1uAKg71iE6qm4wWQfm3evDxY+RQFc2hgBlUDCdY9bcqSElFa3zRKBc4deya7T9xl9KhtJ1GNjsvwCq6HdQzDAffCcWriW3ZQnfays7fli5EKb3VQplMwyp3Hu6KKrc1Cr90DzkunDChFKEilxYqvZnCaRXFF8BRFilygkMNpbeiTM04DITnxS9uKCEipabpAK2T1fZXqKL02gZK+SLaT1S6i2GqItyJRA+qxrZSlkpSvsHXQFU0rSIojOxS4lV4mO/qZKOBqmhVQMAqLiUXcKzDqxeRLk2BJ8kEaRvRBe/hTo3liTBx57Lfig9ETX744sSh1CXdIWAjqhieFRabxjWraKo2qOKbnCqGR/lyhgrTQ7+M3BtU7cUGTDsSar6iaRVhHpJTxXAJBR+rFtLoVjF/nZUZ1CjC9VBqLj0BRspqIdNUUYbbanEqELKHOUrrxbNCiaHw9cLtoYxPU4Dp9lLYqTQHVUYVCT6N1SsaBy6kM/f71HpQBUwGwS+Njy1KF0ZXIzU/A+9cwioSYgsx1c9Z6dphqSIUMwQc1LcqURzs4y9X8Fyews0MEKjiffw68b0lhxtBZ9HcAcFURd1BjRSRkqeJzrUB1nLd8jytryKMTp1Qcm1ijlTF4jJr75BiIhrGjlLK4hKpDT7wmk/4gM0COjiosdlTypYgQk4GJqFf9OvvjX970f4r5j2StssQSUXha8v1GktDmVnThrEclbZZ3VCQ2AID04l/2tV28LeVCi5UMcrlp9UPY2rAZzB7X9SXsH9wZAzHZeFvxagirQYcn6vFzdXwrjFWPBjDUVNF9jil1fGjo3ysIWhD8je4xlb0oqkiF2ITLfs6yanQjanS0rPaVcl94lnvtuG9RpqAlnNFQWlevjEYsD/BbJbVHVQW1J6oqN1oNpBOGC6MF4JDyWxZh5mJOctR+9rYxcufIYrrl6bWKmBs0MytYkn6SAeV2ptoxaoEIF5KK+JM7JU2G0phqw1erEjeOopfBsaBWDkv4qRuqmKUg0ruEWa2gSgcLalrtsInsDc+0a0idT6l93lzLSLGS65RgP6jlfGKsIqMTTF5phfNgWvdqNL8uZnxCYQHZAeVs7cCy16ggL40AYaNI8OY6BlU0jjl7G5GX1KiX8f/fFAVzc5LPVakwDpniB5BYc3XO0/pPk/2Vf4EVZF0edbaNeJsWtrvoTY0wX99N+uKxdvoPxMGKm/9IWUNac4Ovhlgz1AVzQepW8VgCZk7RdKad9HzDcpj4eyeq6IuCoz18NZT7kaRpL4z1ISwKQpbtFJzNym6VWTvNEQo0LzBOPnRn/rBpfQMtelcLKh1RUpJpkx4LuMLmy42SaD+PDqvA+PhM+ynIg7AClrK8uNCLjBeIpQe0YaVY0WFqhiUtonZZih01SpY8DT81Auld0uuyp/odcV6YvY2CdifJgfT2TQvoaSK+GCUFitO658YobhdQVARCmeyHTGJ5LaKuirWEHfuRchLxHiJvJj+eah/F1ElVfQTuwNmjSaW9ntg1FXn0NNf3mPRVEXPg4s+nc03narStiassqrHKhYJu1vvcRPrWAHriqVHeAlmLSIQHOOmVQQH1auKAofPeV0njJe4lQ5tM9tcFfWHBLGix0GV2C/Z551iEMRvpUCH1lpKCk0A7qcsctqFu19pB/9jdo8Go/RxYGW/wCq6flxk/9Kb1NXlhk8/ru6PqvhrUAbm6c/q9GKcsUccAS0KOFTcIXpiEVCAr1ZFsYMDK/f9wXgpeq15SJalyh+UO+IqMytIib4/HiWccBCwxfutremC+3lXWCQ8PCBj7DJrEXDSgV0NEz0V0XIOS+WX+MbJkP0rTVUU3VffkgPN0D5auhMhqli2isJnI5Tb9xcooNjRLAExUHlGY2W5fehq8A1nlAiePTOoO/ekN9Gv1sCBj3/9OTPXdVZQQ4c9Xsl5T6q5ox7/+jO7rubctecGT7KUXPLFR9xO6Pz15x9eg4iNH9M5bnG2yS/c8Bs8idjmdLNuVAcL/vrzgE9HPbYzUOeCIW+NiO04cN8XOrT6BH87XD6NONtuhLcHCqCBcMlPn99Uz2F5kUnUQGDVSTDCOZlQPhf0RlcWC9GsGoUpb4t4Kt8XMxIV3EtsrepnLZa655HFHzfq57XNF/iHWZOT6rLxSCKIx6aG6lqghC3ESHRDqzOL6C4LSdJjWPdUOM/H9hWwTDqSHKub0bXJd2IisN3iiYeIdsqGmUmEVU/XMX+6yHpxmfF575JBIJP+iGshl4M2IggW/cmB6pKrw4SxOKtN0tkgfC3xx+C6dc/NePIy929AsZm/9DhnNV0V09nj8e7wsF1honW92r7t746T9wtlBy9Emk2H/f6437+dZv+BCbOjo6Ojo6Ojo6Ojo6Ojo6OjQ5Z/AXSAuYxo8AzwAAAAAElFTkSuQmCC" alt="Twitter" class="contact-logo">
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:kishoreoffcial011@gmail.com">
+                        <img src="data:image/jpeg;base64,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" alt="Email" class="contact-logo">
+                        Email
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Kishore. All rights reserved.</p>
+    </footer>
+    
+
+
+<script>
+    window.addEventListener('load', () => {
+        document.getElementById('loading-overlay').style.display = 'none';
+    });
+
+    const changingText = document.getElementById("changing-text");
+    const textArray = ["Passionate Software Engineer.", "Security Enthusiast.", "Problem Solver.", "Passionate Backend Engineer."];
+    let textIndex = 0;
+
+function changeText() {
+  changingText.textContent = textArray[textIndex];
+  textIndex = (textIndex + 1) % textArray.length;
+}
+
+// Change text every 3 seconds
+setInterval(changeText, 3000);
+
+// Initial text load
+changeText();
+
+    
+
+// For the mouseenter and mouseover effect
+    const skillCards = document.querySelectorAll('.skill-card');
+
+    skillCards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'scale(1.1)';
+            card.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            card.style.boxShadow = '0 6px 12px rgba(0, 0, 0, 0.2)';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'scale(1)';
+            card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+        });
+    });
+
+    const skills = document.querySelectorAll('.skill');
+
+    skills.forEach(skill => {
+        skill.addEventListener('mouseover', () => {
+            skill.style.backgroundColor = '#f947fc';
+            skill.style.color = '#fafcfc';
+        });
+
+        skill.addEventListener('mouseout', () => {
+            skill.style.backgroundColor = '';
+            skill.style.color = ''; 
+        });
+    });
+
+// Mouseover effect finish
+
+    const profile = document.querySelectorAll('.profile-info-item');
+
+    profile.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.transform = 'scale(1.1)';
+            card.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            card.style.boxShadow = '0 6px 12px rgba(0, 0, 0, 0.2)';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'scale(1)';
+            card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+        });
+    });
+   
+
+
+    const project = document.querySelectorAll('.project-card');
+    project.forEach(head => {
+        head.addEventListener('mouseenter', () => {
+            head.style.backgroundColor = '#809e4d';
+            head.style.borderRadius = "30px";
+            head.style.transform = 'scale(1.1)';
+            head.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            head.style.boxShadow = '0 6px 12px rgba(0.2, 0, 1, 0.2)';
+            head.style.color = 'white';
+        });
+
+        head.addEventListener('mouseleave', () => {
+            head.style.backgroundColor='';
+            head.style.transform = 'scale(1)';
+            head.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+        });
+    });
+    
+    const header = document.querySelectorAll('.highlite');
+
+    header.forEach(head => {
+        head.addEventListener('mouseenter', () => {
+            head.style.backgroundColor = '#e872e6';
+            head.style.borderRadius = "40px";
+            head.style.transform = 'scale(1.1)';
+            head.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            head.style.boxShadow = '0 6px 12px rgba(0.2, 0, 1, 0.2)';
+        });
+
+        head.addEventListener('mouseleave', () => {
+            head.style.backgroundColor='';
+            head.style.transform = 'scale(1)';
+            head.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+        });
+    });
+
+
+</script>
+
+            
+</body>
+</html>
